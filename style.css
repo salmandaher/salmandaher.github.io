@@ -328,7 +328,11 @@ pre code {
   outline: none;
   box-shadow: var(--focus-ring);
 }
-
+.hero-shape img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .btn--primary {
   background: var(--color-primary);
   color: var(--color-btn-primary-text);
